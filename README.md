@@ -1,6 +1,6 @@
-# ECMAScript Mathematical Constants and Formulas
+# Mathematical Constants and Functions in ECMAScript
 
-> A collection of mathematical constants and formulas implemented in ECMAScript, JavaScript and TypeScript with ES6+ features.
+> A collection of mathematical constants and functions implemented by JavaScript and TypeScript (ESNext).
 
 ## Table of Contents
 
@@ -13,27 +13,27 @@
   - [Other Properties](#other-properties)
     - [Math](#math)
 
-## The Globe Object of ECMAScript for Mathematics
+## The Global Object of ECMAScript for Mathematics [[top](#table-of-contents)]
 
-There are a plenty of built-in objects that can be treated as mathematical constants and formulas naturally.
+A plenty of built-in objects in ECMAScript can be directly used as mathematical constants and functions.
 
-### Value Properties
+### Value Properties [[top](#table-of-contents)]
 
-| Value Properties | Description       | Math Symol | Value                |
-| ---------------- | ----------------- | ---------- | -------------------- |
-| [Infinity]()     | positive Infinity | +∞         | Infinity (+Infinity) |
-| [NaN]()          | Not-a-Number      | NaN        | NaN                  |
+| Value Properties | Description       | Notation | Value                |
+| ---------------- | ----------------- | :------: | -------------------- |
+| [`Infinity`]()   | positive Infinity |    +∞    | Infinity (+Infinity) |
+| [`NaN`]()        | Not-a-Number      |   NaN    | NaN                  |
 
-### Function Properties
+### Function Properties [[top](#table-of-contents)]
 
-| Function Properties | Description       | Math Symol | Value                   |
-| ------------------- | ----------------- | ---------- | ----------------------- |
-| [isFinite()]()      | positive Infinity | +∞         | Infinity (or +Infinity) |
-| [isNaN()]()         | Not-a-Number      | NaN        | NaN                     |
-| [parseFloat()]()    | positive Infinity | +∞         | Infinity (or +Infinity) |
-| [parseInt()]()      | Not-a-Number      | NaN        | NaN                     |
+| Function Properties | Description                                            |    Argument     | Return           |
+| ------------------- | ------------------------------------------------------ | :-------------: | ---------------- |
+| [`isFinite()`]()    | determine whether a number is a finite number or not   |    _number_     | Boolean          |
+| [`isNaN()`]()       | determine whether a value is NaN or not                |    _number_     | Boolean          |
+| [`parseFloat()`]()  | parse an argument to a floating point number           |    _string_     | Number (float)   |
+| [`parseInt()`]()    | parse an argument to an integer of the specified radix | _string, radix_ | Number (integer) |
 
-### Constructor Properties
+### Constructor Properties [[top](#table-of-contents)]
 
 - [BigInt]()
 - [Numbers]()
@@ -42,26 +42,26 @@ There are a plenty of built-in objects that can be treated as mathematical const
 
 #### Numbers
 
-### Other Properties
+### Other Properties [[top](#table-of-contents)]
 
 - [Math]()
 
-#### Math
+#### Math [[top](#table-of-contents)]
 
-- `Math` is a function object or constructor object
+- `Math` is not a function object or constructor object
 - All properties and methods of `Math` are static
-- `Math` works with the Number type. It doesn't work with `BigInt`
+- `Math` works with the `Number` type. It doesn't work with `BigInt`
 
-| Properties                                     | Description                                                | Math Symol   | Value                 |
-| ---------------------------------------------- | ---------------------------------------------------------- | ------------ | --------------------- |
-| [E](https://tc39.es/ecma262/#sec-math.e)       | the base of the natural logarithms                         | <var>e</var> | 2.7182818284590452354 |
-| [LN10](https://tc39.es/ecma262/#sec-math.ln10) | the natural logarithm of 10                                |              | 2.302585092994046     |
-| LN2                                            | the natural logarithm of 2                                 |              | 0.6931471805599453    |
-| LOG10E                                         | the base-10 logarithm of <var>e</var>                      |              | 0.4342944819032518    |
-| LOG2E                                          | the base-2 logarithm of <var>e</var>                       |              | 1.4426950408889634    |
-| PI                                             | the ratio of the circumference of a circle to its diameter |              | 3.1415926535897932    |
-| SQRT1_2                                        | the square root of ½                                       |              | 0.7071067811865476    |
-| SQRT2                                          | the square root of 2                                       |              | 1.4142135623730951    |
+| Properties                                     | Description                                                     |                Notation                | Value                 |
+| ---------------------------------------------- | --------------------------------------------------------------- | :------------------------------------: | --------------------- |
+| [`E`](https://tc39.es/ecma262/#sec-math.e)     | the base of the natural logarithms                              | <var style="font-style:italic">e</var> | 2.7182818284590452354 |
+| [LN10](https://tc39.es/ecma262/#sec-math.ln10) | the natural logarithm of 10                                     |                                        | 2.302585092994046     |
+| LN2                                            | the natural logarithm of 2                                      |                                        | 0.6931471805599453    |
+| LOG10E                                         | the base-10 logarithm of <var style="font-style:italic">e</var> |                                        | 0.4342944819032518    |
+| LOG2E                                          | the base-2 logarithm of <var style="font-style:italic">e</var>  |                                        | 1.4426950408889634    |
+| PI                                             | the ratio of the circumference of a circle to its diameter      |                                        | 3.1415926535897932    |
+| SQRT1_2                                        | the square root of ½                                            |                                        | 0.7071067811865476    |
+| SQRT2                                          | the square root of 2                                            |                                        | 1.4142135623730951    |
 
 ## FAQ
 
