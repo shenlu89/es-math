@@ -1,4 +1,4 @@
-# <img width="120" src="https://shenlu.me/assets/images/esmath.svg" align="left"/>ECMAScript in Mathematics
+# ECMAScript in Mathematics
 
 ![](https://img.shields.io/github/issues/shenlu89/es-math)
 ![](https://img.shields.io/github/stars/shenlu89/es-math)
@@ -137,10 +137,6 @@ A plenty of built-in objects in ECMAScript can be directly used as mathematical 
 >
 > 1. `x ** y` is recommended to implement _x_ ^ _y_ instead of `Math.pow(x, y)`, See [Why you don't need Math.pow(x, y)]().
 > 2. `~~x` is recommended to get the integer part of the given number instead of `Math.trunc(x)`, See [Why you don't need Math.trunc(x)]().
-
-## FAQ [:top:](#table-of-contents)
-
-### What does it do?
 
 ## Contributing [:top:](#table-of-contents)
 
