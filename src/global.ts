@@ -15,10 +15,7 @@
  */
 
 // BigInt
-export const {
-  asIntN,
-  asUintN
-} = BigInt
+export const { asIntN, asUintN } = BigInt
 
 // Number
 export const n_isFinite = Number.isFinite
@@ -37,7 +34,7 @@ export const {
   // parseFloat, // it is identical to global parseFloat function
   // parseInt, // it is identical to global parseInt function
   // POSITIVE_INFINITY, // it is identical to global POSITIVE_INFINITY value
-} = Number;
+} = Number
 
 /**
  * Other Properties
@@ -91,4 +88,4 @@ export const {
   tan,
   tanh,
   // trunc, // ~~x is recommended
-} = Math;
+} = Math

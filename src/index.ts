@@ -1,9 +1,23 @@
-import { E, PI } from "./global";
+/**
+ * ======================
+ * Author: Shen Lu
+ * Name: ECMAScript in Mathematics
+ * License: MIT
+ * URL: https://github.com/shenlu89/es-math
+ * ======================
+ * A collection of mathematical constants and functions implemented by JavaScript and TypeScript (ESNext).
+ */
 
-import * as math from "./global";
+import { PI } from './global'
 
-export default math;
+// Common Constants
 
-console.log(E, PI);
-console.log(math.E);
-console.log(math.PI);
+const TAU = 2 * PI
+
+// Common Functions
+
+const circle_perimeter = (radius) => {
+  return radius * TAU
+}
+
+export { TAU, circle_perimeter }
