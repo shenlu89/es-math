@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint --ignore-path .gitignore \"**/*+(ts|js)\"",
     "format": "prettier --ignore-unknown \"**/*\"",
-    "test": "jest -converage",
+    "test": "jest --coverage",
     "build": "rm -rf dist types && tsc"
   },
   "repository": {
