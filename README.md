@@ -16,7 +16,6 @@
     - [Numbers](#numbers)
   - [Other Properties](#other-properties)
     - [Math](#math)
-- [FAQ](#faq)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -135,8 +134,8 @@ A plenty of built-in objects in ECMAScript can be directly used as mathematical 
 
 > **Note**:
 >
-> 1. `x ** y` is recommended to implement _x_ ^ _y_ instead of `Math.pow(x, y)`, See [Why you don't need Math.pow(x, y)]().
-> 2. `~~x` is recommended to get the integer part of the given number instead of `Math.trunc(x)`, See [Why you don't need Math.trunc(x)]().
+> 1. `x ** y` is recommended to implement _x_ ^ _y_ instead of `Math.pow(x, y)`.
+> 2. `~~x` is recommended to get the integer part of the given number instead of `Math.trunc(x)`.
 
 ## Contributing [:top:](#table-of-contents)
 
