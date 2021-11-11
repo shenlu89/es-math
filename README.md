@@ -4,7 +4,7 @@
 ![](https://img.shields.io/github/stars/shenlu89/es-math)
 ![](https://img.shields.io/github/license/shenlu89/es-math)
 
-> A collection of mathematical constants and functions implemented by JavaScript and TypeScript (ESNext)
+> A collection of mathematical constants and functions implemented by JavaScript (ESNext).
 
 ## Table of Contents
 
@@ -16,6 +16,9 @@
     - [Numbers](#numbers)
   - [Other Properties](#other-properties)
     - [Math](#math)
+- [FAQ](#faq)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## ECMAScript Global Object for Mathematics [:top:](#table-of-contents)
 
@@ -62,18 +65,18 @@ A plenty of built-in objects in ECMAScript can be directly used as mathematical 
 | [`NEGATIVE_INFINITY`]()     | negative infinity                                                                                                     |      ![](https://latex.codecogs.com/svg.image?-\infty)       | -Infinity               |
 | ~~[`POSITIVE_INFINITY`]()~~ | the value identicial to the global `Infinity`                                                                         |      ![](https://latex.codecogs.com/svg.image?+\infty)       | Infinity (+Infinity)    |
 
-| Function Properties               | Description                                                                                  | Return Type      |
-| --------------------------------- | -------------------------------------------------------------------------------------------- | ---------------- |
-| [`isFinite(number)`]()            | determine whether the passed value is a finite number or not                                 | boolean          |
-| [`isInteger(number)`]()           | determine whether the passed value is an integer or not                                      | boolean          |
-| [`isNaN(number)`]()               | determine whether the passed value is NaN or not (`number !== number`)                       | boolean          |
-| [`isSafeInteger(number)`]()       | determine whether the passed value is a safe integer (between -2^53 + 1 and 2^53 - 1) or not | boolean          |
-| ~~[`parseFloat(string)`]()~~      | the function identicial to the global `parseFloat`                                           | number (float)   |
-| ~~[`parseInt(string, radix)`]()~~ | the function identicial to the global `parseInt`                                             | number (integer) |
+| Function Properties               | Description                                                                                          | Return Type      |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------- |
+| [`isFinite(number)`]()            | determine whether the passed value is a finite number or not                                         | boolean          |
+| [`isInteger(number)`]()           | determine whether the passed value is an integer or not                                              | boolean          |
+| [`isNaN(number)`]()               | determine whether the passed value is NaN or not (`typeof number === 'number' && number !== number`) | boolean          |
+| [`isSafeInteger(number)`]()       | determine whether the passed value is a safe integer (between -2^53 + 1 and 2^53 - 1) or not         | boolean          |
+| ~~[`parseFloat(string)`]()~~      | the function identicial to the global `parseFloat`                                                   | number (float)   |
+| ~~[`parseInt(string, radix)`]()~~ | the function identicial to the global `parseInt`                                                     | number (integer) |
 
 > **Note**:
 >
-> 1. `Number.isFinite(number)` does not convert its argument to a Number before determining whether it is `Infinity` or not, which differs from the global `isFinite(number)` function. So `Number.isNaN(number)` does it as well. See [What's the difference between isNaN and Number.isNaN in JavaScript?]().
+> 1. `Number.isFinite(number)` does not convert its argument to a Number before determining whether it is `Infinity` or not, which differs from the global `isFinite(number)` function. So `Number.isNaN(number)` does it as well. See [isNaN() is not equal to Number.isNaN() in JavaScript]().
 
 ### Other Properties [:top:](#table-of-contents)
 
@@ -135,10 +138,14 @@ A plenty of built-in objects in ECMAScript can be directly used as mathematical 
 > 1. `x ** y` is recommended to implement _x_ ^ _y_ instead of `Math.pow(x, y)`, See [Why you don't need Math.pow(x, y)]().
 > 2. `~~x` is recommended to get the integer part of the given number instead of `Math.trunc(x)`, See [Why you don't need Math.trunc(x)]().
 
-## Contributing
+## FAQ [:top:](#table-of-contents)
+
+### What does it do?
+
+## Contributing [:top:](#table-of-contents)
 
 Please read the [contribution guidelines]() in order to make the contribution process easy and effective for everyone involved.
 
-## License
+## License [:top:](#table-of-contents)
 
 [MIT](https://github.com/shenlu89/es-math/blob/main/LICENSE)
