@@ -2,11 +2,12 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "lib": ["esnext", "dom"],
+    "lib": ["esnext"],
     "outDir": "dist",
     "declaration": true,
     "declarationMap": true,
     // "emitDeclarationOnly": true,
+    "strict": true,
     "declarationDir": "types",
     "moduleResolution": "node",
     "esModuleInterop": true,
@@ -14,6 +15,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "exclude": ["node_modules", "__test__"],
+  "exclude": ["dist", "node_modules", "__test__"],
   "include": ["src/**/*.ts"]
 }
