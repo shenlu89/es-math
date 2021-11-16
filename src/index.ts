@@ -10,14 +10,16 @@
 
 import { PI } from './global'
 
-// Common Constants
+/**
+ * 
+ */
+
+// Constants
 
 const TAU = 2 * PI
 
-// Common Functions
+// Functions
 
-const circle_perimeter = (radius) => {
+const circle_perimeter = (radius:number):number => {
   return radius * TAU
 }
-
-export { TAU, circle_perimeter }
