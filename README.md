@@ -16,7 +16,6 @@
     - [Numbers](#numbers)
   - [Other Properties](#other-properties)
     - [Math](#math)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## ECMAScript Global Object for Mathematics [:top:](#table-of-contents)
@@ -136,22 +135,6 @@ A plenty of built-in objects in ECMAScript can be directly used as mathematical 
 >
 > 1. `x ** y` is recommended to implement _x_ ^ _y_ instead of `Math.pow(x, y)`.
 > 2. `~~x` is recommended to get the integer part of the given number instead of `Math.trunc(x)`.
-
-## Composite Constants And Functions [:top:](#table-of-contents)
-
-### Constants
-
-- isOdd
-
-### Functions
-
-- Mean
-- Medium
-- Area
-
-## Contributing [:top:](#table-of-contents)
-
-Please read the [contribution guidelines]() in order to make the contribution process easy and effective for everyone involved.
 
 ## License [:top:](#table-of-contents)
 
