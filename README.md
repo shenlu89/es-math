@@ -75,7 +75,7 @@ A plenty of built-in objects in ECMAScript can be directly used as mathematical 
 
 > **Note**:
 >
-> 1. `Number.isFinite(number)` does not convert its argument to a Number before determining whether it is `Infinity` or not, which differs from the global `isFinite(number)` function. So `Number.isNaN(number)` does it as well. See [isNaN() is not equal to Number.isNaN() in JavaScript]().
+> 1. `Number.isFinite(number)` does not convert its argument to a Number before determining whether it is `Infinity` or not, which differs from the global `isFinite(number)` function. So `Number.isNaN(number)` does it as well.
 
 ### Other Properties [:top:](#table-of-contents)
 
@@ -136,6 +136,18 @@ A plenty of built-in objects in ECMAScript can be directly used as mathematical 
 >
 > 1. `x ** y` is recommended to implement _x_ ^ _y_ instead of `Math.pow(x, y)`.
 > 2. `~~x` is recommended to get the integer part of the given number instead of `Math.trunc(x)`.
+
+## Composite Constants And Functions [:top:](#table-of-contents)
+
+### Constants
+
+- isOdd
+
+### Functions
+
+- Mean
+- Medium
+- Area
 
 ## Contributing [:top:](#table-of-contents)
 
